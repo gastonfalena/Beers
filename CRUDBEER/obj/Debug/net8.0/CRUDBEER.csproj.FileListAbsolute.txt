@@ -1,0 +1,8 @@
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.csproj.AssemblyReference.cache
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.AssemblyInfoInputs.cache
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.AssemblyInfo.cs
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.csproj.CoreCompileInputs.cache
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.RazorAssemblyInfo.cache
+C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.RazorAssemblyInfo.cs
