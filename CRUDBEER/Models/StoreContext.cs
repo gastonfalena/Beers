@@ -7,7 +7,7 @@ namespace CRUDBEER.Models
         public StoreContext(DbContextOptions<StoreContext> options) 
             :base(options)
         {
-
+            Console.WriteLine("hola");
         }
         public DbSet<Beer> Beers { get; set; }
         public DbSet<Brand> Brands { get; set; }
