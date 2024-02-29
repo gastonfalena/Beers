@@ -135,3 +135,4 @@ C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\refint\CRUDBEER.dll
 C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.pdb
 C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\CRUDBEER.genruntimeconfig.cache
 C:\Users\gasto\CRUDBEER\CRUDBEER\obj\Debug\net8.0\ref\CRUDBEER.dll
+C:\Users\gasto\CRUDBEER\CRUDBEER\bin\Debug\net8.0\FluentValidation.dll
