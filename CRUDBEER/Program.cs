@@ -1,5 +1,6 @@
 using CRUDBEER.DTO;
 using CRUDBEER.Models;
+using CRUDBEER.Repository;
 using CRUDBEER.Services;
 using CRUDBEER.Validators;
 using FluentValidation;
@@ -19,6 +20,8 @@ builder.Services.AddScoped<IValidator<BeerInsertDto>, BeerInsertValidator>();
 builder.Services.AddScoped<IValidator<BeerUpdateDto>, BeerUpdateValidator>();
 //Interfaces Servicios
 builder.Services.AddKeyedScoped<ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto>,BeerService>("beerService");
+// Repository
+builder.Services.AddScoped<IRepository<Beer>, BeerRepository>();
 
 var app = builder.Build();
 
