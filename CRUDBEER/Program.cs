@@ -1,3 +1,4 @@
+using CRUDBEER.Automappers;
 using CRUDBEER.DTO;
 using CRUDBEER.Models;
 using CRUDBEER.Repository;
@@ -22,6 +23,8 @@ builder.Services.AddScoped<IValidator<BeerUpdateDto>, BeerUpdateValidator>();
 builder.Services.AddKeyedScoped<ICommonService<BeerDto, BeerInsertDto, BeerUpdateDto>,BeerService>("beerService");
 // Repository
 builder.Services.AddScoped<IRepository<Beer>, BeerRepository>();
+//Mappers
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
