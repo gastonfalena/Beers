@@ -51,13 +51,7 @@ namespace CRUDBEER.Services
             await _beerRepository.Add(beer);
             await _beerRepository.Save();
 
-            var beerDto = new BeerDto
-            {
-                Id = beer.BrandID,
-                Name = beer.Name,
-                BrandID = beer.BrandID,
-                Alcohol = beer.Alcohol
-            };
+            var beerDto = _mapper.Map<BeerDto>(beer);
             return beerDto;
 
         }
