@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDBEER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d5ebf847a5f3cec295259f3e223ff42dea0f2df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b782999b98f833cd5ee917ce3ce28327c37c395")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDBEER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDBEER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
