@@ -43,6 +43,10 @@ namespace CRUDBEER.Controllers
             {
                 return BadRequest(validationResult.Errors);
             }
+            if (!_beerService.Validate(beerInsertDto)) 
+            {
+                return BadRequest(_beerService.Errors);
+            }
 
             var beerDto = await _beerService.Add(beerInsertDto);
 
@@ -57,7 +61,10 @@ namespace CRUDBEER.Controllers
             {
                 return BadRequest(validationResult.Errors);
             }
-
+            if (!_beerService.Validate(beerUpdateDto))
+            {
+                return BadRequest(_beerService.Errors);
+            }
             var beerDto = await _beerService.Update(id, beerUpdateDto);
 
             return beerDto == null ? NotFound() : Ok(beerDto);
