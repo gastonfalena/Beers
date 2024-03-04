@@ -26,5 +26,9 @@ namespace CRUDBEER.Repository
             => _context.Beers.Remove(entity);
         public async Task Save()
            => await _context.SaveChangesAsync();
+
+        public IEnumerable<Beer> Search(Func<Beer,bool> filter) =>
+            //Desacoplamos el metodo Search para que la responabilidad la tenga quien invoca a search
+            _context.Beers.Where(filter).ToList();
     }
 }

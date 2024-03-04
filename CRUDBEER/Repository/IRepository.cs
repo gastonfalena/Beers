@@ -9,5 +9,7 @@
         void Delete(TEntity entity);
 
         Task Save();
+
+        IEnumerable<TEntity> Seacch(Func<TEntity, bool> filter);
     }
 }
