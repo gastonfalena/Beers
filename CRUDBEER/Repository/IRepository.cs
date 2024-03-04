@@ -10,6 +10,6 @@
 
         Task Save();
 
-        IEnumerable<TEntity> Seacch(Func<TEntity, bool> filter);
+        IEnumerable<TEntity> Search(Func<TEntity, bool> filter);
     }
 }
